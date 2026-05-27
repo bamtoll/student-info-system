@@ -1,6 +1,6 @@
 # 🎓 대학교 학생정보서비스
 
-> **BamToll University Of Technical** — Student Information System
+> — Student Information System
 
 [![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -22,7 +22,7 @@
 ## 📋 프로젝트 개요
 
 대구공업대학교 학생정보서비스를 참고하여 제작한  
-**밤톨공업대학교(BUT)** 의 학생 성적 및 주소록 관리 웹 시스템입니다.
+대학교 학생 성적 및 주소록 관리 웹 시스템입니다.
 
 ---
 
