@@ -158,7 +158,3 @@ sudo firewall-cmd --reload
 | 주소록 | 통합 검색 목록 |
 
 ---
-
-<p align="center">
-  Copyright &copy; 2024 <strong>BamToll University Of Technical</strong> All Rights Reserved.
-</p>
