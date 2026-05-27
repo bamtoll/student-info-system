@@ -101,52 +101,6 @@ student-info-system/
 
 ---
 
-## ⚙️ 설치 방법
-
-### 1. 저장소 클론
-```bash
-git clone https://github.com/bamtoll/student-info-system.git
-cd student-info-system
-```
-
-### 2. config.php 생성
-```php
-<?php
-define('DB_HOST', 'mysql서버IP');
-define('DB_USER', 'root');
-define('DB_PASS', '패스워드');
-define('DB_NAME', 'student');
-define('ADMIN_ID',   'admin');
-define('ADMIN_PASS', 'admin1234');
-?>
-```
-
-### 3. 데이터베이스 초기화
-```bash
-mysql -u root -p < setup.sql
-```
-
-### 4. 웹서버 배포
-```bash
-sudo cp -r ./* /var/www/html/
-sudo systemctl restart httpd
-```
-
----
-
-## 🔒 보안 설정 (Rocky Linux / RHEL)
-
-```bash
-# SELinux - PHP → DB 연결 허용
-sudo setsebool -P httpd_can_network_connect_db 1
-
-# 방화벽 - HTTP 허용
-sudo firewall-cmd --permanent --add-service=http
-sudo firewall-cmd --reload
-```
-
----
-
 ## 📸 화면 구성
 
 | 페이지 | 설명 |
