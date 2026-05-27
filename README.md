@@ -1,4 +1,4 @@
-# 🎓 밤톨공업대학교 학생정보서비스
+# 🎓 대학교 학생정보서비스
 
 > **BamToll University Of Technical** — Student Information System
 
